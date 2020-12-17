@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main (){
+	int dongia , soluong, thanhtien;
+	printf("nhap dongia : =", dongia);
+	scanf("%d", &dongia);
+	printf("nhap soluong: =",soluong);
+	scanf("%d", &soluong );
+	printf("nhap thanhtien: =",thanhtien);
+    thanhtien= soluong * dongia;
+    if(thanhtien >=500 &&dongia >=5){
+    (thanhtien= (soluong*dongia)*0.5);
+	}else
+	{scanf("%d",&thanhtien);
+	}
+  	getchar();
+  	return 0;
+	
+	
+    
+	
+}
